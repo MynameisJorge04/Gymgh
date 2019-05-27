@@ -48,9 +48,10 @@
         <nav class="nav" id="nav">
           <ul class="menu">
             <li class="menu__item"><a  class="menu__link" href="index.html">Inicio</a></li>
-            <li class="menu__item"><a  class="menu__link">Eventos</a></li>
-            <li class="menu__item"><a  class="menu__link">Tips</a></li>
-            <li class="menu__item"><a  class="menu__link">Contacto</a></li>
+            <li class="menu__item"><a  class="menu__link" href="eventos.html">Eventos</a></li>
+            <li class="menu__item"><a  class="menu__link" href="tips.html">Tips</a></li>
+            <li class="menu__item"><a  class="menu__link" href="Contacto.php">Contacto</a></li>
+            <li class="menu__item"><a  class="menu__link" href="Blog.html">Blog</a></li>
           </ul>
         </nav>
       </div>
