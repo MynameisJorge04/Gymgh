@@ -70,7 +70,7 @@
   <img src="img/barras.jpg">
 
    <div class="conte1">
-  <h2>Contactanos</h1>
+  <h2>Contactanos</h2>
     <h3 class="yeah">Este chat, es en linea tiene como primeras indicaciones e infromacion<br><br>
       Horario: 9:00am a 11:00pm<br><br>
       1.-Llenar de forma correcta los dos campos<br><br>
