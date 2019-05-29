@@ -57,7 +57,7 @@
       </div>
     </header>
     <div class="banner"> 
-        <img src="img/banas.jpg" alt="banner" title="" >
+        <img src="img/img (6).jpg" alt="banner" title="" >
          <div class="contenedor">
         <h1 class="banner__titulo">Gym GH Tlaxcala</h1>
         <p class="banner__txt">Bienvenidos -Conoce más sobre lo que ofrecemos-</p>
@@ -78,6 +78,9 @@
       2.-Tener como tal el objetivo de aclarar dudas<br><br>
       3.-Esperar de forma ordenada la respuesta de la servidora
     </h3>
+
+  
+
 	<div id="contenedor1">
 		<div id="caja-chat">
 			<div id="chat">
@@ -87,8 +90,8 @@
 		</div>
 
 		<form method="POST" action="Contacto.php">
-			<input type="text" name="nombre" placeholder="Ingresa tu nombre:">
-			<textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+			<input type="text" name="nombre" placeholder="Ingresa tu nombre:" required>
+			<textarea name="mensaje" placeholder="Ingresa tu mensaje" required></textarea>
 			<input name="enviar" type="submit" value="Enviar"/>
 		</form>
     <?php
@@ -100,9 +103,8 @@
      }
 
     ?>
-
+  </div>
 	</div>
-</div>
 </section>
 
  <footer class="footer">
@@ -114,6 +116,7 @@
          <p class="copy">&copy; Todos los derechos reservados CBTIS03 2019</p>
          </footer>
           <script src="js/menu.js"></script>
+          <script src="js/validar.js"></script>
 
 </body>
 </html>

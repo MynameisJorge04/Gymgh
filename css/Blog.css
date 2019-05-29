@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -112,9 +118,7 @@ h2 {
 }
 
 .in{
-    background: #333;
-    color: #fff;
-    text-align: center; 
+    width: 100%;
 }
 
 .letra21{
@@ -204,12 +208,13 @@ h4{
 
 .content-alli{
 	width: 100%;
-	margin-left: -250px;
+	margin-left: -200px;
+	margin-top: -50px;
 }
 
 .content-img{
 	width: 500px;
-	height: 300px;
+	height: 323px;
 	margin: auto;
 	margin-top: 50px;
 	position: relative;
@@ -332,3 +337,184 @@ h4{
  	opacity: 1;
  }
 
+.marco img{
+	width: 1300px;
+	height: 400px;
+	margin-left: 178px;
+	position: absolute;
+	margin-top: -45px;
+}
+
+
+
+.main{
+   width: 50%
+   max-width: 1000px;
+   margin: 20px 20px;
+  margin-top: 20px;
+
+}
+
+.letra20{
+   width: 500px;
+   font-size: 6px;
+   text-decoration: none;
+   display: block;
+    padding: 5px;
+    text-align: center;
+   border: 3px solid black;
+   background: black ;
+   opacity: 0.5;
+   margin-left: 32%;
+   font-size: 75px;
+   color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.letra21{
+
+   font-size: 6px;
+   text-decoration: none;
+   display: block;
+   width: 300px;
+    padding: 5px;
+    text-align: center;
+   background-color: black;
+   opacity: 0.5;
+   margin-left: 67%;
+   font-size: 20px;
+   color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.letra22{
+
+
+   text-decoration: none;
+   display: block;
+   width: 450px;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.4;
+   margin-left: 60%;
+   font-size: 15px;
+   color: white;
+    font-family: 'Roboto', sans-serif;
+  padding: 10px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#Blog1{
+   margin-top: 0px;
+   position: relative;
+}
+
+#Blog1 article{
+   margin: 50px;
+
+}
+
+.contenedor5{
+   width: 98%
+   margin: auto;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ h5{
+   text-align: center;
+   font-size: 20px;
+   width: 288px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Blog1 img{
+   width: 100%;
+   max-width: 288px;
+
+}
+
+.letra25{
+   width: 800px;
+   font-size: 6px;
+   text-decoration: none;
+   display: block;
+    padding: 5px;
+    text-align: center;
+   border: 3px solid black;
+   background: black ;
+   opacity: 0.5;
+   margin-left: 170px;
+   font-size: 50px;
+   color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+
+#info{
+   background: #333;
+   color: #fff;
+   text-align: center;
+}
+
+#info .contenedor5{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.info-pet{
+   margin: 28px;
+}
+
+.info-pet img{
+   width: 250px;
+   max-width: 250px;
+   border-radius: 50%;
+   border: 3px solid #fff;
+}
+
+
+
+@media screen and (max-width:1000px){
+
+.letra21{
+  display: none;
+}
+
+.letra22{
+  display: none;
+}
+
+.slides{
+  width: 90%;
+   margin-left: 5%;
+   margin-top: 50px;
+}
+
+.slides img{
+  width: 90%;
+}
+
+.letra20{
+  margin-left: 0px;
+  font-size: 50px;
+  width: 100%;
+}
+
+.letra25{
+  margin-left: 0px;
+  font-size: 40px;
+  width: 500px;
+}
+
+
+
+}
