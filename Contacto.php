@@ -17,6 +17,8 @@
 
 	<link rel="stylesheet" href="css/Contacto.css">
 
+  <script src="js/validar.js"></script>
+
 	<script type="text/javascript">
 		function ajax(){
 			var req = new XMLHttpRequest();
@@ -89,9 +91,9 @@
 
 		</div>
 
-		<form method="POST" action="Contacto.php">
-			<input type="text" name="nombre" placeholder="Ingresa tu nombre:" required>
-			<textarea name="mensaje" placeholder="Ingresa tu mensaje" required></textarea>
+		<form method="POST" action="Contacto.php" onsubmit="return validar();">
+			<input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre:" required>
+			<textarea name="mensaje" id="mensaje" placeholder="Ingresa tu mensaje" required></textarea>
 			<input name="enviar" type="submit" value="Enviar"/>
 		</form>
     <?php
@@ -116,7 +118,6 @@
          <p class="copy">&copy; Todos los derechos reservados CBTIS03 2019</p>
          </footer>
           <script src="js/menu.js"></script>
-          <script src="js/validar.js"></script>
-
+          
 </body>
 </html>
