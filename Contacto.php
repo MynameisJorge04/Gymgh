@@ -58,6 +58,8 @@
         </nav>
       </div>
     </header>
+
+    
     <div class="banner"> 
         <img src="img/img (6).jpg" alt="banner" title="" >
          <div class="contenedor">
